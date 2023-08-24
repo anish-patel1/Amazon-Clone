@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="image/SmallLogo.jpg" />
 </head>
+<script>
+    function signInPage() {
+        window.open("https://www.amazon.com/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pd_rd_w%3DTk0wA%26content-id%3Damzn1.sym.f6fa1414-9a03-4a77-b33f-48ca75d19e5a%26pf_rd_p%3Df6fa1414-9a03-4a77-b33f-48ca75d19e5a%26pf_rd_r%3D7YSQDZAK0P8YXDEWTYPJ%26pd_rd_wg%3D7ob2E%26pd_rd_r%3D03f3fbc6-e638-41fb-a280-915c30ab9573&openid.assoc_handle=usflex&openid.pape.max_auth_age=0&pf_rd_r=7YSQDZAK0P8YXDEWTYPJ&pf_rd_p=f6fa1414-9a03-4a77-b33f-48ca75d19e5a&pd_rd_r=03f3fbc6-e638-41fb-a280-915c30ab9573&pd_rd_w=Tk0wA&pd_rd_wg=7ob2E&ref_=pd_gw_unk", "_blank");
+    }
+</script>
 <body>
     <header>
         <div class="navbar">
@@ -117,7 +122,7 @@
                     <div class="shop-signin">
                         <h2>Sign in for the best experience</h2>
                         <div class="shop-btn">
-                            <button>Sign in securely</button>
+                            <button onclick="signInPage()">Sign in securely</button>
                         </div>
                     </div>
                     <div class="shop-export"></div>
@@ -154,7 +159,7 @@
                 <div class="bottom-signin">
                     <div class="bottom-signin-content">
                         <div>See personalized recommendations</div>
-                        <button>Sign in</button>
+                        <button onclick="signInPage()">Sign in</button>
                         <p>New customer? <a href="#" class="general-link-style">Start here.</a></p>
                     </div>
                 </div>
